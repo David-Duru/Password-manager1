@@ -1,0 +1,191 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: #434d53;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.loading {
+  color: white;
+  font-size: 32px;
+  line-height: 34px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.h2-title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.h3-title {
+  margin-bottom: -5px;
+  margin-top: -20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.h3-title-error {
+  margin-bottom: -5px;
+  margin-top: -20px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  font-style: italic;
+  color: red;
+}
+
+main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-span {
+  margin-left: 187px;
+}
+
+.left-span-login {
+  margin-left: 140px;
+}
+
+code {
+  background: #fafafa;
+  padding: 0.75rem;
+  font-family: Menlo, Monaco, Lucida Console, Courier New, monospace;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-wrapper {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px 30px 40px 30px;
+  background-color: #ffffff;
+  border: 5px solid #f74d4d;
+  width: 600px;
+}
+
+table {
+  width: 100%;
+  padding: 2px;
+}
+
+table,
+th,
+td {
+  border: 2px solid;
+  padding: 2px;
+  text-align: center;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #434d53;
+  color: white;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f74d4d;
+  border: none;
+  width: 100px;
+  height: 45px;
+}
+
+.button:hover {
+  background-color: #d33535;
+}
+
+.button:active {
+  background-color: #d33535;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+.buttonAdd {
+  display: inline-block;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #f74d4d;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.buttonAdd:hover {
+  background-color: #d33535;
+}
+
+.buttonAdd:active {
+  background-color: #d33535;
+  box-shadow: 0 2px #666;
+  transform: translateY(2px);
+}
+
+input[type="text"],
+input[type="password"] {
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  padding: 10px;
+  border: 2px solid #410b0b;
+  height: 50px;
+}
