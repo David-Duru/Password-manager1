@@ -18,7 +18,7 @@ export default function Home() {
 
     try {
       const res = await fetch(
-        "https://dashing-moonbeam-ee4062.netlify.app/",
+        "https://dashing-moonbeam-ee4062.netlify.app/.netlify/functions/app",
         {
           body: JSON.stringify({
             username: event.target.username1.value,
@@ -61,7 +61,7 @@ export default function Home() {
 
     try {
       const res = await fetch(
-        "https://sweet-choux-bf1cdc.netlify.app/.netlify/functions/app",
+        "https://dashing-moonbeam-ee4062.netlify.app/.netlify/functions/app",
         {
           body: JSON.stringify({
             username: event.target.username2.value,
@@ -95,7 +95,7 @@ export default function Home() {
 
     try {
       const res = await fetch(
-        "https://sweet-choux-bf1cdc.netlify.app/.netlify/functions/app",
+        "https://dashing-moonbeam-ee4062.netlify.app/.netlify/functions/app",
         {
           body: JSON.stringify({
             username: userData.username,
@@ -125,7 +125,7 @@ export default function Home() {
 
     try {
       const res = await fetch(
-        "https://sweet-choux-b-f1cdc.netlify.app/.netlify/functions/app",
+        "https://dashing-moonbeam-ee4062.netlify.app/.netlify/functions/app",
         {
           body: JSON.stringify({
             username: userData.username,
