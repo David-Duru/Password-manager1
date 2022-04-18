@@ -3,7 +3,7 @@ import { MongoClient } from "mongodb";
 
 async function getClient() {
   const uri =
-    "mongodb+srv://davidduru1:<password>@cluster0.f8yw7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+    "mongodb+srv://davidduru1:r@LCXDZAJmcq8C3@cluster0.f8yw7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
   const client = new MongoClient(uri, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
